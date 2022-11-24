@@ -52,3 +52,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "yujin8731"
