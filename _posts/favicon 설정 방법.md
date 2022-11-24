@@ -13,5 +13,5 @@ comments: true
 
 3. /_config.yml 에 코드 asset_url: /assets 추가한다
 
-2. /_include/head.html 12라인 favicon 설정하는 코드를 추가한다 
+4. /_include/head.html 12라인에 favicon 설정하는 코드를 추가한다 
 <link href="{{ site.asset_url }}/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
