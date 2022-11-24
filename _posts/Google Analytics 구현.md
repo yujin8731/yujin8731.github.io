@@ -3,7 +3,7 @@ layout: post
 title: Google Analytics 구현
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+ Google Analytics 구현하는데 참고한 [tistory]](https://dagician.github.io/posts/Ubuntu%EB%A1%9C-Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0(2)/) 
 
 ### Built on Poole
 
