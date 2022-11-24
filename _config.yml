@@ -57,3 +57,7 @@ comment:
   provider: "disqus"
   disqus:
     shortname: "yujin8731"
+
+
+google_analytics:
+  id: 'G-KMPPCG54SZ'
