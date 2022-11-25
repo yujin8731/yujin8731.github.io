@@ -1,3 +1,32 @@
+
+# 깃블로그 만든 과정
+
+준비 과정 : 루비 및 지킬 설치 우선적으로 완료
+
+1. 깃허브 시작하기
+- 깃허브에 로그인한후 계정 옆의 + 를 누르고 [New repository] 선택
+- repository name 필드에 <계정.github.io> 입력
+ 
+2.지역저장소를 원격 저장소에 연결
+- 지역저장소 만들기: git blog 생성
+
+- 원격저장소에 연결하기
++윈도우 이용으로 강의안 리눅스 기준으로 된 강의안을 따라하기가 쉽지 않아 보다 쉬운 이용을 위해서 깃허브 데스크탑 설치
++깃허브 데스크탑 file버튼 clone repository 후 생성해둔 지역저장소에 clone 완료
+
+
+3. 원격저장소에 올리기 및 내려받기
+- 깃블로그 Lanyon 테마 파일을 zip파일로 다운받아 지역저장소에 파일 저장
+
+
+
+
+
+
+
+
+
+
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
