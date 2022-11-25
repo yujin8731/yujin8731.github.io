@@ -14,7 +14,7 @@
 +윈도우 이용으로 강의안 리눅스 기준으로 된 강의안을 따라하기가 쉽지 않아 보다 쉬운 이용을 위해서 깃허브 데스크탑 설치
 +깃허브 데스크탑 file버튼 clone repository 후 생성해둔 지역저장소에 clone 완료
 
--지역저장소에 
+-지역저장소 활동
 지킬 설치 여부를 확인 
 jeklly -v
 
@@ -31,10 +31,24 @@ yujin831.github.io 접속시 잘 반영된걸 확인
 - 이미 존재하는 파일은 덮어쓰기
 
 
-##추가 기능 구현
+## 추가 기능 구현
 1. 댓글 기능 구현
 - Disqus 가입 후 세팅
+
 - config.yml 파일에 
+  comment:
+  provider: "disqus"
+  disqus:
+    shortname: "yujin8731" 코드 추가
+    
+ - layouts/post.html 파일에 Universal Code 추가
+    주석 해제 후, PAGE_URL과 PAGE_IDENTIFIER를 설정하고 s.src가 잘 지정되어있는지 확인
+    
+ 댓글을 허용하고 싶은 곳에 comments: True로 지정
+
+
+# 참고 자료
+책 사진 넣기 
 
 
 
