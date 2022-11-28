@@ -67,9 +67,9 @@
   - 루트 디렉토리에 asset 폴더를 새롭게 만들고 다운받는 이미지를 넣는다
   - /_config.yml 에 코드 asset_url: /assets 추가한다
   - /_include/head.html 12라인에 favicon 설정하는 코드 추가
-       '''css
+       ```javascript
       <link href="{{ site.asset_url }}/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
-      '''
+      ```
                          
 
 
