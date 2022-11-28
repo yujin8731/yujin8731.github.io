@@ -5,7 +5,7 @@
 1. 깃허브 시작하기
   - 깃허브에 로그인한후 계정 옆의 + 를 누르고 [New repository] 선택
   - repository name 필드에 <계정.github.io> 입력
- 
+  - 
 2.지역저장소를 원격 저장소에 연결
   - 지역저장소 만들기: git blog 생성
 
