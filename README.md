@@ -15,23 +15,16 @@
 +깃허브 데스크탑 file버튼 clone repository 후 생성해둔 지역저장소에 clone 완료
 
 - 지역저장소 활동
-  [지킬 설치 여부를 확인] 
-  
-  '''
+  [지킬 설치 여부를 확인]
   jeklly -v
-  '''
+
 
   [지킬 시작]
-  
-  '''
   jeklly new . force --force
-  '''
+
 
   [지킬 서버 실행 후, localhost:4000 접속]
-  
-  '''
   (bundle exec) jekyll serve 
-  '''
 
   yujin831.github.io 접속시 잘 반영된걸 확인
 
@@ -54,7 +47,7 @@
     주석 해제 후, PAGE_URL과 PAGE_IDENTIFIER를 설정하고 s.src가 잘 지정되어있는지 확인
     
  - 댓글을 허용하고 싶은 곳에
- -  '''comments: True'''
+ -  comments: True
  -  로 지정
  
  
