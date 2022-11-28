@@ -1,5 +1,5 @@
 
-# 깃블로그 만든 과정
+# 깃블로그 생성 과정
 
 준비 과정 : 루비 및 지킬 설치 우선적으로 완료
 
@@ -14,24 +14,24 @@
 +윈도우 이용으로 강의안 리눅스 기준으로 된 강의안을 따라하기가 쉽지 않아 보다 쉬운 이용을 위해서 깃허브 데스크탑 설치
 +깃허브 데스크탑 file버튼 clone repository 후 생성해둔 지역저장소에 clone 완료
 
--지역저장소 활동
-지킬 설치 여부를 확인 
-jeklly -v
+- 지역저장소 활동
+  [지킬 설치 여부를 확인] 
+  jeklly -v
 
-지킬 시작
-jeklly new . force --force
+  [지킬 시작]
+  jeklly new . force --force
 
-지킬 서버 실행 후, localhost:4000 접속 
-(bundle exec) jekyll serve 
+  [지킬 서버 실행 후, localhost:4000 접속]
+  (bundle exec) jekyll serve 
 
-yujin831.github.io 접속시 잘 반영된걸 확인
+  yujin831.github.io 접속시 잘 반영된걸 확인
 
 3. 원격저장소에 올리기 및 내려받기
 - 깃블로그 Lanyon 테마 파일을 zip파일로 다운받아 지역저장소에 파일 저장
 - 이미 존재하는 파일은 덮어쓰기
 
 
-## 추가 기능 구현
+### 추가 기능 구현
 1. 댓글 기능 구현
 - Disqus 가입 후 세팅
 
@@ -47,7 +47,7 @@ yujin831.github.io 접속시 잘 반영된걸 확인
  - 댓글을 허용하고 싶은 곳에 comments: True로 지정
  
  
- # 선택 과제 구현
+  ### 선택 과제 구현
 1. Google Analytics 구현 방법
 - GA 계정 생성
 -  https://analytics.google.com/ 으로 이동하여 ‘측정 시작’ 클릭
@@ -67,7 +67,7 @@ yujin831.github.io 접속시 잘 반영된걸 확인
 - /_include/head.html 12라인에 favicon 설정하는 코드를 추가한다
 
 
-# 참고 자료
+### 참고 자료
 
 
 
