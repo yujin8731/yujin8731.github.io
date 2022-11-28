@@ -63,6 +63,7 @@
   - 깃허브 블로그 연동
     - 관리자 화면의 상단에 추적 ID 를 복사후 깃허브 블로그 repository 의 _config.yml 파일을 수정
 
+
 2. favicon 구현
   - https://icons8.kr/icons/set/favicon-ico 에서 원하는 favicon 이미지를 16x16으로 다운받는다
   - 루트 디렉토리에 asset 폴더를 새롭게 만들고 다운받는 이미지를 넣는다
