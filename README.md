@@ -16,13 +16,19 @@
 
 - 지역저장소 활동
   [지킬 설치 여부를 확인] 
+  '''
   jeklly -v
+  '''
 
   [지킬 시작]
+  '''
   jeklly new . force --force
+  '''
 
   [지킬 서버 실행 후, localhost:4000 접속]
+  '''
   (bundle exec) jekyll serve 
+  '''
 
   yujin831.github.io 접속시 잘 반영된걸 확인
 
@@ -44,23 +50,25 @@
  - layouts/post.html 파일에 Universal Code 추가
     주석 해제 후, PAGE_URL과 PAGE_IDENTIFIER를 설정하고 s.src가 잘 지정되어있는지 확인
     
- - 댓글을 허용하고 싶은 곳에 comments: True로 지정
+ - 댓글을 허용하고 싶은 곳에
+ -  '''comments: True'''
+ -  로 지정
  
  
   ### 선택 과제 구현
-1. Google Analytics 구현 방법
+1. Google Analytics 구현
 - GA 계정 생성
--  https://analytics.google.com/ 으로 이동하여 ‘측정 시작’ 클릭
-- ‘계정이름’ 입력하고 ‘다음’ 클릭
-- ‘웹’ 선택하고 ‘다음’ 클릭
-- 웹사이트 이름 : 아무거나
-- 블로그 웹사이트 URL : yujin8731.github.io
-- ‘만들기’ 버튼 선택
+  -  https://analytics.google.com/ 으로 이동하여 ‘측정 시작’ 클릭
+  - ‘계정이름’ 입력하고 ‘다음’ 클릭
+  - ‘웹’ 선택하고 ‘다음’ 클릭
+  - 웹사이트 이름 : 아무거나
+  - 블로그 웹사이트 URL : yujin8731.github.io
+  - ‘만들기’ 버튼 선택
 
-2.깃허브 블로그 연동
-- 관리자 화면의 상단에 추적 ID 를 복사후 깃허브 블로그 repository 의 _config.yml 파일을 수정
+- 깃허브 블로그 연동
+  - 관리자 화면의 상단에 추적 ID 를 복사후 깃허브 블로그 repository 의 _config.yml 파일을 수정
 
-2. favicon
+2. favicon 구현
 - https://icons8.kr/icons/set/favicon-ico 에서 원하는 favicon 이미지를 16x16으로 다운받는다
 - 루트 디렉토리에 asset 폴더를 새롭게 만들고 다운받는 이미지를 넣는다
 - /_config.yml 에 코드 asset_url: /assets 추가한다
