@@ -25,7 +25,7 @@
     [지킬 서버 실행 후, localhost:4000 접속]
     (bundle exec) jekyll serve 
 
-    >> yujin831.github.io 접속시 잘 반영된걸 확인
+    > yujin831.github.io 접속시 잘 반영된걸 확인
 
 3. 원격저장소에 올리기 및 내려받기
   - 깃블로그 Lanyon 테마 파일을 zip파일로 다운받아 지역저장소에 파일 저장
