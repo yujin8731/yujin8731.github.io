@@ -73,8 +73,8 @@
 
 ------
 ### 참고 자료
+<img src="https://user-images.githubusercontent.com/95964960/204191336-fa4a5738-1988-4643-8d3b-c03a69516893.jpg" width="300" height="500"/>
 
-<img src="![XL](https://user-images.githubusercontent.com/95964960/204191336-fa4a5738-1988-4643-8d3b-c03a69516893.jpg), "width="50" height="50"/>
 
 
 
