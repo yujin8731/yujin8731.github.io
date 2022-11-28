@@ -20,7 +20,7 @@
 
 title:               Eureka Project
 # tagline:             'A Jekyll theme'
-description:         '국민대학교 소프트웨어 전공생 윤유진의 첫 깃허브 블로그 '
+description:         '국민대학교 소프트웨어 전공생 첫 깃허브 블로그 '
 url:                 https://yujin8731.github.io
 baseurl:             ''
 paginate:            5
