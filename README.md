@@ -14,6 +14,7 @@
     +깃허브 데스크탑 file버튼 clone repository 후 생성해둔 지역저장소에 clone 완료
 
   - 지역저장소 활동
+  
     [지킬 설치 여부를 확인]
     jeklly -v
 
