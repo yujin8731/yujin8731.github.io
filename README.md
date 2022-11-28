@@ -16,16 +16,19 @@
 
 - 지역저장소 활동
   [지킬 설치 여부를 확인] 
+  
   '''
   jeklly -v
   '''
 
   [지킬 시작]
+  
   '''
   jeklly new . force --force
   '''
 
   [지킬 서버 실행 후, localhost:4000 접속]
+  
   '''
   (bundle exec) jekyll serve 
   '''
