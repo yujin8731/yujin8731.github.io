@@ -45,9 +45,7 @@
    - layouts/post.html 파일에 Universal Code 추가
       주석 해제 후, PAGE_URL과 PAGE_IDENTIFIER를 설정하고 s.src가 잘 지정되어있는지 확인
 
-   - 댓글을 허용하고 싶은 곳에
-   -  comments: True
-   -  로 지정
+   - 댓글을 허용하고 싶은 곳에 comments: True 지정
 
 
  -----
